@@ -1,0 +1,42 @@
+@import "Components/Header/header.css";
+@import "fonts/font.css";
+@import "Components/About-us/about-us.css";
+@import "Components/Technologies/technologies.css";
+@import "Components/Philosophy/philosophy.css";
+@import "Components/Team/team.css";
+@import "Components/ProjectPro/projectPro.css";
+@import "Components/Partner/partner.css";
+@import "Components/Contact/contact.css";
+
+* {
+  font-size: 100%;
+}
+.container {
+  max-width: 1230px;
+  margin:0 auto;
+}
+
+.second-page {
+  background-color: #f8f8f8;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+.help-block {
+  display: none !important;
+}
+
+@media (max-width:820px) {
+  .help-block {
+    display: block !important;
+  }
+  
+}
+
+
+
+
+
+
+
+
