@@ -10,8 +10,7 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 63px;
   padding: 100px 50px 0 50px;
- 
-}
+ }
 
 .philosophy-photo {
   display: grid;
@@ -55,7 +54,6 @@
 @media (max-width:500px) {
  
   .philosophy-photo img:nth-child(2) {
-   
     width: 300px;
    
   }

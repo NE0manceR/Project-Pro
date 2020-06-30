@@ -2,8 +2,6 @@
   display: grid;
   max-width: 1230px;
   margin: 0 auto;
-  
-  
 }
 
 .partner {
@@ -21,8 +19,8 @@
 
 .partner-secion-number {
   transform: translateX(0);
-  
 }
+
 .partner-slider {
   width: 100%;
   overflow: hidden;
@@ -34,6 +32,7 @@
   z-index: 2;
   margin-left: -15px;
 }
+
 .partner-slides-wrap {
   display: grid;
   grid-template-columns: repeat(8,220px);
@@ -79,7 +78,6 @@
 
   .partner-secion-number {
     font-size: 6rem;
-    
   } 
 
   .partner-title {
@@ -91,20 +89,22 @@
     grid-template-columns: 230px  230px 230px 230px;
     justify-content: center;
     transform: translateX(200px);
-    
-   row-gap: 10px;
-   margin-bottom: 10px;
+    row-gap: 10px;
+    margin-bottom: 10px;
   }
+
   .partner-logo {
        justify-self: center;
     width: 230px;
   }
+
   .section-wrap {
-    
-    padding-top: 50px;
+        padding-top: 50px;
   }
+
   .partner-wrap-btn {
     margin-top: 50px;
   }
+
 }
 
